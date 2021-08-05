@@ -1,0 +1,52 @@
+body{
+      margin: 0;
+      background-image: linear-gradient(to top,
+      overflow-y: hidden;
+    }
+
+.night{
+       height: 80vh;
+       width: 70vw;
+       border: 1px soild black;
+       margin: 5ren auto;
+       background: url(‘./images/img_01.JPG’);
+       background-size: cover;
+       position: relative;
+ }
+
+.surface{
+        height: 140px;
+        width: 500%;
+        background: url(‘./images/img_02.PNG’);
+        display: block;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        background-repeat: repeat-x;
+        animation: moveRight 6s linear infinite;
+}
+
+.car{
+      position: absolute;
+      bottom: 8%;
+      left: 24%;
+      animation: suspension 1s linear infinite;
+}
+
+/* Animation */
+
+@keyframes moveRight{
+     100%{transform: translateX(-2950)}
+}
+
+@keyframes suspension{
+     100%{
+             transform: translateY(-1px);
+    }
+     50%{
+            transform: translateY(2px);
+    }
+0%{
+
+     }
+}
