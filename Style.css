@@ -9,7 +9,7 @@ body{
        width: 70vw;
        border: 1px soild black;
        margin: 5ren auto;
-       background: url(‘https://images.com/img_01.JPG’);
+       background: url(‘./images/img_01.JPG’);
        background-size: cover;
        position: relative;
  }
@@ -17,7 +17,7 @@ body{
 .surface{
         height: 140px;
         width: 500%;
-        background: url(‘https://images.com/img_02.PNG’);
+        background: url(‘./images/img_02.PNG’);
         display: block;
         position: absolute;
         bottom: 0%;
