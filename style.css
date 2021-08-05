@@ -4,6 +4,7 @@ body{
       overflow-y: hidden;
     }
 
+
 .night{
        height: 80vh;
        width: 70vw;
@@ -13,6 +14,7 @@ body{
        background-size: cover;
        position: relative;
  }
+
 
 .surface{
         height: 140px;
@@ -26,12 +28,14 @@ body{
         animation: moveRight 6s linear infinite;
 }
 
+
 .car{
       position: absolute;
       bottom: 8%;
       left: 24%;
       animation: suspension 1s linear infinite;
 }
+
 
 /* Animation */
 
