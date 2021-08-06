@@ -10,7 +10,7 @@ body{
        width: 70vw;
        border: 1px soild black;
        margin: 5ren auto;
-       background-image: url('https://dhamu1101.github.io/moving-car/images/Img_01.JPG');
+       background-image: url("https://dhamu1101.github.io/moving-car/images/Img_01.JPG");
        background-size: cover;
        position: relative;
  }
